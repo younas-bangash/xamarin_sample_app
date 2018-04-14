@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using MvvmCross.Core.ViewModels;
-
-
+using SampleApp.Core.ViewModels;
 
 /**
  * This class is responsibile for starting the videwModels and the business logic
@@ -16,9 +15,7 @@ namespace SampleApp.Core
         public override void Initialize()
         {
 
-
-            // RegisterNavigationServiceAppStart<TipViewModel>();
-
+            RegisterNavigationServiceAppStart<LoginViewModel>();
 
         }
     }
